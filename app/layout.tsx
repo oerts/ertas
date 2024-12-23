@@ -57,12 +57,12 @@ export default function RootLayout({
     <html
       lang="en"
       className={cx(
-        "text-stone-900 bg-white dark:text-white dark:bg-stone-900",
+        "text-stone-900 bg-stone-50 dark:text-stone-100 dark:bg-stone-900",
         outfit.className,
         spaceMono.className,
       )}
     >
-      <body className="antialiased max-w-prose mx-4 lg:mx-auto">
+      <body className="antialiased max-w-prose mx-auto">
         <main className="h-full min-w-0 pt-6 flex flex-col px-2 md:px-0 min-h-screen">
           <Navbar />
           {children}

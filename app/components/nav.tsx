@@ -8,26 +8,27 @@ const navItems = {
   "/blog": {
     name: "blog",
   },
-  "/projects": {
-    name: "projects",
-  },
-  "/contact": {
-    name: "contact",
-  },
 };
 
 export function Navbar() {
   return (
     <aside className="-ml-[8px] mb-16 tracking-tight">
-      <div className="lg:sticky lg:top-20 flex items-center justify-between">
-        <div className="flex items-center gap-4">
-          <Image
-            src="/logo.svg"
-            alt="two half circles separated by a gap forming o and z"
-            width="40"
-            height="40"
-          />
-        </div>
+      <div className="flex items-center justify-between">
+        <Link href="/" className="group relative">
+          <div className="bg-stone-50 dark:bg-stone-900 pr-4">
+            <div className="rounded-full w-[40px] h-[40px] group-hover:bg-brand-100 transition-colors duration-500 flex items-center justify-center">
+              <Image
+                src="/logo.svg"
+                alt="two half circles separated by a gap forming o and z"
+                width="40"
+                height="40"
+              />
+            </div>
+          </div>
+          <span className="absolute -z-10 text-xl font-semibold left-full ml-2 top-1/2 -translate-y-1/2 -translate-x-full opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0">
+            ertas.dev
+          </span>
+        </Link>
         <nav
           className="flex flex-row items-start relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
           id="nav"

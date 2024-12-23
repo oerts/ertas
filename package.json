@@ -20,6 +20,7 @@
     "react-dom": "19.0.0",
     "sugar-high": "^0.7.5",
     "tailwindcss": "4.0.0-alpha.13",
-    "typescript": "5.7.2"
+    "typescript": "5.7.2",
+    "vanilla-tilt": "^1.8.1"
   }
 }

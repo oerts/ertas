@@ -17,7 +17,7 @@ function ArrowIcon() {
 
 export default function Footer() {
   return (
-    <footer className="mb-4 flex justify-between items-center border-t border-red-400 mt-4 pt-4">
+    <footer className="mb-4 flex justify-between items-center border-t border-stone-400 mt-4 pt-4">
       <ul className="font-sm flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
         <li>
           <a
