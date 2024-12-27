@@ -15,7 +15,7 @@ export function Navbar() {
     <aside className="-ml-[8px] mb-16 tracking-tight">
       <div className="flex items-center justify-between">
         <Link href="/" className="group relative">
-          <div className="bg-stone-50 dark:bg-stone-900 pr-4">
+          <div className="bg-stone-50 dark:bg-stone-900 -ml-4 px-4">
             <div className="rounded-full w-[40px] h-[40px] group-hover:bg-brand-100 transition-colors duration-500 flex items-center justify-center">
               <Image
                 src="/logo.svg"

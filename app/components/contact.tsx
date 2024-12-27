@@ -5,15 +5,14 @@ export default function Contact() {
         Contact
       </h2>
       <p className="mt-2 mb-4 text-neutral-600 dark:text-neutral-400">
-        Feel free to reach out to me via email. I'm always open to interesting
-        conversations and opportunities.
+        Feel free to reach out to me via email. I'd love to hear from you!
       </p>
-      <div className="mt-4">
-        <div className="inline-block font-mono bg-stone-50 dark:bg-stone-800 px-3 py-2 rounded">
-          <span>hey</span>
-          <span className="select-none text-neutral-400 px-1">[at]</span>
-          <span>ertas.dev</span>
-        </div>
+      <div className="flex items-center text-base">
+        <span>howdy</span>
+        <span>@</span>
+        <span>ertas</span>
+        <span>.</span>
+        <span>dev</span>
       </div>
     </div>
   );
