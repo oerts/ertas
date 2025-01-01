@@ -12,7 +12,7 @@ const navItems = {
 
 export function Navbar() {
   return (
-    <aside className="-ml-[8px] mb-16 tracking-tight">
+    <aside className="-ml-[8px] pl-2 mb-16 tracking-tight">
       <div className="flex items-center justify-between">
         <Link href="/" className="group relative">
           <div className="bg-stone-50 dark:bg-stone-900 -ml-4 px-4">
