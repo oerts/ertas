@@ -8,11 +8,7 @@ export default function Contact() {
         Feel free to reach out to me via email. I'd love to hear from you!
       </p>
       <div className="flex items-center text-base">
-        <span>howdy</span>
-        <span>@</span>
-        <span>ertas</span>
-        <span>.</span>
-        <span>dev</span>
+        <span>hey[at]ertas.dev</span>
       </div>
     </div>
   );
