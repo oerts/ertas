@@ -14,7 +14,7 @@ export function Navbar() {
   return (
     <aside className="-ml-[8px] pl-2 mb-16 tracking-tight">
       <div className="flex items-center justify-between">
-        <Link href="/" className="group relative">
+        <Link href="/" className="group flex items-center">
           <div className="bg-stone-50 dark:bg-stone-900 -ml-4 px-4">
             <div className="rounded-full w-[40px] h-[40px] group-hover:bg-brand-100 transition-colors duration-500 flex items-center justify-center">
               <Image
@@ -25,7 +25,7 @@ export function Navbar() {
               />
             </div>
           </div>
-          <span className="absolute -z-10 text-xl font-semibold left-full ml-2 top-1/2 -translate-y-1/2 -translate-x-full opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0">
+          <span className="-z-10 text-xl font-semibold ml-2 whitespace-nowrap -translate-x-1/2 opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0">
             ertas.dev
           </span>
         </Link>
